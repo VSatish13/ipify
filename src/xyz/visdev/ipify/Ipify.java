@@ -26,7 +26,7 @@ public class Ipify extends AndroidNonvisibleComponent {
     activity = container.$context();
   }
 
-  @SimpleFunction(description = "Returns the sum of the given list of integers.")
+  @SimpleFunction(description = "Returns the ip address of user")
   public String GetIpv6() {
     final String link = "https://api64.ipify.org/?format=json";
     AsynchUtil.runAsynchronously(new Runnable() {
